@@ -1,0 +1,145 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"h5": {
+					"pullToRefresh": {
+						"color": "#D51518"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/apply/apply",
+			"style": {
+				"navigationBarTitleText": "申请提取",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/index/register/register",
+			"style": {
+				"navigationBarTitleText": "登记信息",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/index/order/order",
+			"style": {
+				"navigationBarTitleText": "预约",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/index/activity/activity",
+			"style": {
+				"navigationBarTitleText": "平台活动",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/index/register/write",
+			"style": {
+				"navigationBarTitleText": "添加信息",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/activity/actDetail",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/mine/custom/custom",
+			"style": {
+				"navigationBarTitleText": "客户信息",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/mine/friends/friends",
+			"style": {
+				"navigationBarTitleText": "推荐好友",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/mine/system",
+			"style": {
+				"navigationBarTitleText": "系统消息",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/mine/waitpay",
+			"style": {
+				"navigationBarTitleText": "存储续费",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/mine/personal",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"navigationStyle": "custom"
+
+			}
+		}, 
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/login/bindTel",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationStyle": "custom"
+
+			}
+		}
+	    ,{
+            "path" : "pages/index/agreement",
+            "style" : {
+							"navigationBarTitleText": "储存协议",
+							"navigationStyle": "custom"
+
+						}
+        }
+        ,{
+            "path" : "pages/index/order/nav",
+            "style" : {
+							"navigationBarTitleText": "体检中心",
+							"navigationStyle": "custom"
+
+						}
+        }
+        ,{
+            "path" : "pages/mine/custom/record",
+            "style" : {
+							"navigationBarTitleText": "缴费记录",
+							"navigationStyle": "custom"
+
+						}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+	
+}
